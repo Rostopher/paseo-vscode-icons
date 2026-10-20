@@ -1,0 +1,28 @@
+Paseo VSCode Icons
+Copyright (c) 2026 Frowang AI contributors
+
+This is an independent Paseo plugin, not an official product of Paseo,
+Microsoft, or the vscode-icons project.
+
+The generated catalog derives its file/folder associations and includes
+unmodified SVG artwork from:
+  vscode-icons, by The vscode-icons Contributors
+  https://github.com/vscode-icons/vscode-icons
+
+The exact source commit and version appear in client/generated/catalog.json.
+The adaptation adds filename resolution outside VS Code and a small set of
+bibliography-style associations. It does not modify the SVG artwork.
+
+Upstream source code and association data: MIT (licenses/vscode-icons-MIT.txt).
+Upstream icon artwork: Creative Commons Attribution-ShareAlike 4.0
+International (licenses/CC-BY-SA-4.0.txt), except branded icons, which retain
+their respective copyright licenses as stated by upstream.
+Source of the icon license declaration:
+  https://github.com/vscode-icons/vscode-icons#license
+
+Attribution: The vscode-icons Contributors, vscode-icons.
+CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+Brand names and marks belong to their respective owners.
+
+The MIT license at this package's root covers the plugin code only. It does
+not relicense the included artwork or override upstream brand permissions.

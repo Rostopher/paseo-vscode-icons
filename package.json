@@ -1,0 +1,38 @@
+{
+  "name": "paseo-vscode-icons",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "VSCode Icons for Paseo's existing Files explorer on desktop and web.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frowang-ai/paseo-vscode-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frowang-ai/paseo-vscode-icons/issues"
+  },
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "files": [
+    "paseo-plugin.json", "index.client.tsx", "client/",
+    "OVERVIEW.md", "README.md", "LICENSE", "NOTICE", "licenses/"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "node scripts/build.mjs",
+    "generate:icons": "node scripts/generate-icons.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "playwright test",
+    "prepack": "npm run typecheck && npm run build"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "0.12.0",
+    "@playwright/test": "1.56.1",
+    "@types/react": "~19.2.0",
+    "esbuild": "0.25.12",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "typescript": "~5.9.3"
+  }
+}

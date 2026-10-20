@@ -1,0 +1,6 @@
+{
+  "id": "paseo-vscode-icons",
+  "name": "VSCode Icons",
+  "description": "Colorful file and folder icons in Paseo's existing Files explorer.",
+  "requirements": { "paseo": ">=0.12.0 <0.13.0" }
+}
