@@ -4,6 +4,8 @@ Colorful file and folder icons for **Paseo's existing Files explorer**, using ar
 
 The plugin keeps Paseo's native folder arrows, file opening, context menus, dragging, and sorting. It adds icons directly to the existing tree, with 8px between each folder's disclosure arrow and icon.
 
+![VSCode Icons in Paseo's Files explorer](assets/preview.png)
+
 ## Features
 
 - Named folder icons with separate closed and opened artwork.

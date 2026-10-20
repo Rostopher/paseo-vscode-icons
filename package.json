@@ -15,7 +15,7 @@
   "engines": { "node": ">=22" },
   "files": [
     "paseo-plugin.json", "index.client.tsx", "client/",
-    "OVERVIEW.md", "README.md", "LICENSE", "NOTICE", "licenses/"
+    "assets/", "OVERVIEW.md", "README.md", "LICENSE", "NOTICE", "licenses/"
   ],
   "scripts": {
     "typecheck": "tsc --noEmit",
