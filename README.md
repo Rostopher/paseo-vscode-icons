@@ -20,7 +20,7 @@ Requires **Paseo 0.12.x** on both the daemon and desktop/web client. Native iOS 
 Enable plugins under **Settings → Plugins**, then run this command on the machine hosting the daemon that your client connects to:
 
 ```sh
-paseo plugin install git:frowang-ai/paseo-vscode-icons
+paseo plugin install git:Rostopher/paseo-vscode-icons
 paseo plugin ls
 ```
 
@@ -62,7 +62,7 @@ To refresh immediately after a CSSOM-only change, reload the client, or disable 
 ## Development
 
 ```sh
-git clone https://github.com/frowang-ai/paseo-vscode-icons.git
+git clone https://github.com/Rostopher/paseo-vscode-icons.git
 cd paseo-vscode-icons
 npm ci --ignore-scripts
 npm run typecheck

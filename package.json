@@ -6,10 +6,10 @@
   "description": "VSCode Icons for Paseo's existing Files explorer on desktop and web.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/frowang-ai/paseo-vscode-icons.git"
+    "url": "https://github.com/Rostopher/paseo-vscode-icons.git"
   },
   "bugs": {
-    "url": "https://github.com/frowang-ai/paseo-vscode-icons/issues"
+    "url": "https://github.com/Rostopher/paseo-vscode-icons/issues"
   },
   "license": "MIT",
   "engines": { "node": ">=22" },
