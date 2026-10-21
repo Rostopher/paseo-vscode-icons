@@ -50,6 +50,12 @@ test("native files and folders gain icons while clicks and context menus remain 
     fixture.install();
   });
   await expect(page.locator(mark)).toHaveCount(4);
+  expect(
+    await page.locator(`${row(0)} .entry-icon`).evaluate(slot => getComputedStyle(slot).width),
+  ).toBe("40px");
+  expect(
+    await page.locator(`${row(1)} .entry-icon`).evaluate(slot => getComputedStyle(slot).width),
+  ).toBe("40px");
   expect(await image(page, 1)).toContain("data:image/svg+xml");
   expect(await image(page, 1)).toBe(await image(page, 2));
   const closed = await image(page, 0);

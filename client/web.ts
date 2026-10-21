@@ -86,6 +86,10 @@ const CSS = `
   pointer-events: none;
 }
 [${MARK}="file"] > * { visibility: hidden !important; }
+[${MARK}="file"] {
+  width: 40px !important;
+  min-width: 40px !important;
+}
 [${MARK}="folder"] {
   width: 40px !important;
   min-width: 40px !important;
